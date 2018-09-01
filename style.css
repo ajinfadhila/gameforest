@@ -1,19 +1,21 @@
-*{padding:0; margin:0;}
+*{padding:0; margin-bottom:0;}
 
 /*body*/
-body{ 	background: url(images/bg_body.jpg); 
+body{ 	background: url(images/bg_body.jpg);
 		font=family: arial,sans-serif;
 	}
-	
+
 .container{width:900px; margin:auto;}
 
 /*HEADER*/
 header{ height:100px;}
-header img{ margin-top:20px;}
+header img{ margin-top:10px;
+						max-block-size:100px;
+					}
 
 /*MENU*/
-menu{ 	height:50px; 
-		margin-bottom: 25px; 
+menu{ 	height:50px;
+		margin-bottom: 25px;
 		background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8191c+59,fc0724+64 */
 		background: #e8191c; /* Old browsers */
 		background: -moz-linear-gradient(top,  #e8191c 59%, #fc0724 64%); /* FF3.6-15 */
@@ -21,31 +23,31 @@ menu{ 	height:50px;
 		background: linear-gradient(to bottom,  #e8191c 59%,#fc0724 64%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8191c', endColorstr='#fc0724',GradientType=0 ); /* IE6-9 */
 	}
-menu ul li {	list-style:none; 
-		float:left; 
-		width:179px;	
+menu ul li {	list-style:none;
+		float:left;
+		width:179px;
 		text-align:center;
-		border-right: 1px solid blue; 
+		border-right: 1px solid blue;
 		}
 menu ul li a{
-		text-decoration:none; 
-		color: white;  
-		display:block; 
+		text-decoration:none;
+		color: white;
+		display:block;
 		line-height:50px;
 		}
 menu li a:hover{
-				background-color:white; 
+				background-color:white;
 				color:black;
 			}
 
 /*article*/
 article {overflow:hidden;}
-article h1{color:#333; 
-		margin-bottom:10px; 
+article h1{color:#333;
+		margin-bottom:10px;
 		font-size:20px;
 		}
-article p{line-height:20px; 
-		font-size:12px; 
+article p{line-height:20px;
+		font-size:12px;
 		margin-bottom:20px;
 		margin-top:10px;
 		}
@@ -60,28 +62,28 @@ article .bottom  .bottomright img {width: 50px;}
 
 /*gallery*/
 article .topleft1  {
-						width: 200px; 
-						float:left; 
-						margin-right:15px; 
+						width: 200px;
+						float:left;
+						margin-right:15px;
 						margin-left:10px;
 						margin-bottom:20px;
 						}
 article .topleft2  {
-						width: 200px; 
-						float:left; 
-						margin-right:15px; 
+						width: 200px;
+						float:left;
+						margin-right:15px;
 						margin-left:10px;
 						margin-bottom:20px;
 						}
 article .topleft3  {
-						width: 200px; 
-						float:left; 
-						margin-right:15px; 
+						width: 200px;
+						float:left;
+						margin-right:15px;
 						margin-left:10px;
 						margin-bottom:20px;
 						}
-					
-article .topright1  {width: 200px; 
+
+article .topright1  {width: 200px;
 				float:right;
 				margin-right:15px;
 				margin-left:10px;
@@ -89,6 +91,6 @@ article .topright1  {width: 200px;
 						}
 
 
-		
+
 /*footer*/
 footer{ height:50px; margin-bottom: 25px; background: red; line-height:50px; text-align: center;}
